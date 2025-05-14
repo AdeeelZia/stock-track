@@ -14,7 +14,7 @@ const Heading: React.FC<HeadingProps> = ({
   const Tag = `h${level}` as keyof JSX.IntrinsicElements;
 
   return (
-    <Tag className={`text-base font-bold text-center ${customStyleText}`}>
+    <Tag className={`text-xl font-bold text-center ${customStyleText}`}>
       {text}
     </Tag>
   );
